@@ -1,4 +1,3 @@
-Perfect — a **GitHub README** should serve as a clean introduction to your project, explain the methodology, and guide others (or even future you) on how to use it. Here’s a structured draft tailored to your **Macroeconomic Forecasting Dashboard project**:
 
 ---
 
