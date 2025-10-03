@@ -1,7 +1,7 @@
 
 ---
 
-# 📊 Macroeconomic Variable Forecasting Dashboard
+# 📊Forecasting Macroeconomic Variables through Dynamic Causal Analysis
 
 This project aims to forecast key **macroeconomic variables** and study their **causal dynamics** using a combination of **Econometrics, Machine Learning, and Power BI**.
 The dashboard is being developed iteratively, starting with **Consumption** as the first variable.
