@@ -68,7 +68,8 @@ The dashboard is being developed iteratively, starting with **Consumption** as t
 
 ## 📊 Example Dashboard Snapshot
 
-*(Add screenshot here from your Power BI dashboard)*
+<img width="1009" height="585" alt="image" src="https://github.com/user-attachments/assets/4bd5df8b-6e83-4056-9c09-9a1a49c7f88d" />
+
 
 ---
 
