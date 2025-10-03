@@ -1,89 +1,86 @@
-# Forecasting-Macroeconomic-Variables-through-Dynamic-Causal-Analysis
-📊 Macroeconomic Variable Forecasting Dashboard
+Perfect — a **GitHub README** should serve as a clean introduction to your project, explain the methodology, and guide others (or even future you) on how to use it. Here’s a structured draft tailored to your **Macroeconomic Forecasting Dashboard project**:
 
-This project aims to forecast key macroeconomic variables and study their causal dynamics using a combination of Econometrics, Machine Learning, and Power BI.
-The dashboard is being developed iteratively, starting with Consumption as the first variable.
+---
 
-🚀 Project Overview
+# 📊 Macroeconomic Variable Forecasting Dashboard
 
-Phase 1 (Current Progress):
+This project aims to forecast key **macroeconomic variables** and study their **causal dynamics** using a combination of **Econometrics, Machine Learning, and Power BI**.
+The dashboard is being developed iteratively, starting with **Consumption** as the first variable.
 
-Built one-step-ahead consumption forecasts using statsmodels in Python.
+---
 
-Implemented AR (Autoregressive) and ARDL (Autoregressive Distributed Lag) models.
+## 🚀 Project Overview
 
-Integrated results into a Power BI dashboard for visualization.
+* **Phase 1 (Current Progress):**
 
-Evaluated baseline accuracy using Residuals & RMSE.
+  * Built **one-step-ahead consumption forecasts** using `statsmodels` in Python.
+  * Implemented **AR (Autoregressive)** and **ARDL (Autoregressive Distributed Lag)** models.
+  * Integrated results into a **Power BI dashboard** for visualization.
+  * Evaluated baseline accuracy using **Residuals & RMSE**.
 
-Planned Phases (Future Work):
+* **Planned Phases (Future Work):**
 
-Extend models to VAR (Vector Autoregression) and VECM (Vector Error Correction Model) for multivariate causal analysis.
+  * Extend models to **VAR (Vector Autoregression)** and **VECM (Vector Error Correction Model)** for multivariate causal analysis.
+  * Apply **Machine Learning models** (XGBoost, LightGBM, LSTM/GRU) for nonlinear forecasting.
+  * Incorporate **Causal Analysis**:
 
-Apply Machine Learning models (XGBoost, LightGBM, LSTM/GRU) for nonlinear forecasting.
+    * Granger causality
+    * Impulse Response Functions (IRFs)
+    * SHAP values for ML interpretability
+  * Expand dashboard to cover additional variables:
 
-Incorporate Causal Analysis:
+    * **GDP**
+    * **Inflation (CPI)**
+    * **Unemployment**
+    * **Interest Rates**
 
-Granger causality
+---
 
-Impulse Response Functions (IRFs)
+## 🛠️ Tech Stack
 
-SHAP values for ML interpretability
+* **Python** (Statsmodels, Pandas, NumPy, Scikit-learn, XGBoost, Darts, DoWhy)
+* **Power BI** (Data modeling, Forecast visualization, Interactive dashboards)
+* **Data Sources:** FRED, World Bank, IMF, OECD
 
-Expand dashboard to cover additional variables:
+---
 
-GDP
+## 📈 Dashboard Features
 
-Inflation (CPI)
+* Visualize **actual vs forecasted consumption**.
+* Compare models (**AR, ARDL, VAR, ML**).
+* Evaluate accuracy metrics (RMSE, MAE, MAPE).
+* Explore **causal dynamics**: how GDP, inflation, or interest rate shocks affect consumption.
+* Scenario simulation: “What if inflation increases by 1%?”
 
-Unemployment
+---
 
-Interest Rates
+## 📂 Repository Structure
 
-🛠️ Tech Stack
-
-Python (Statsmodels, Pandas, NumPy, Scikit-learn, XGBoost, Darts, DoWhy)
-
-Power BI (Data modeling, Forecast visualization, Interactive dashboards)
-
-Data Sources: FRED, World Bank, IMF, OECD
-
-📈 Dashboard Features
-
-Visualize actual vs forecasted consumption.
-
-Compare models (AR, ARDL, VAR, ML).
-
-Evaluate accuracy metrics (RMSE, MAE, MAPE).
-
-Explore causal dynamics: how GDP, inflation, or interest rate shocks affect consumption.
-
-Scenario simulation: “What if inflation increases by 1%?”
-
-📂 Repository Structure
+```
 ├── data/                # Raw and processed macroeconomic datasets
 ├── notebooks/           # Jupyter notebooks for EDA, forecasting, causal analysis
 ├── models/              # Python scripts for AR, ARDL, VAR, ML models
 ├── powerbi/             # Power BI dashboard files (.pbix)
 ├── results/             # Forecast outputs, residuals, model evaluation
 └── README.md            # Project documentation
+```
 
-📊 Example Dashboard Snapshot
+---
 
-(Add screenshot here from your Power BI dashboard)
+## 📊 Example Dashboard Snapshot
 
-🔮 Roadmap
+*(Add screenshot here from your Power BI dashboard)*
 
- Implement AR & ARDL forecasts for Consumption
+---
 
- Build Power BI dashboard for Consumption forecasts
+## 🔮 Roadmap
 
- Add VAR & VECM models
+* [x] Implement AR & ARDL forecasts for Consumption
+* [x] Build Power BI dashboard for Consumption forecasts
+* [ ] Add VAR & VECM models
+* [ ] Integrate ML models (XGBoost, LightGBM, LSTM)
+* [ ] Add causal analysis (Granger, IRF, SHAP)
+* [ ] Expand dashboard to GDP, Inflation, Unemployment, Interest Rates
+* [ ] Deploy interactive dashboard for public access
 
- Integrate ML models (XGBoost, LightGBM, LSTM)
-
- Add causal analysis (Granger, IRF, SHAP)
-
- Expand dashboard to GDP, Inflation, Unemployment, Interest Rates
-
- Deploy interactive dashboard for public access
+---
